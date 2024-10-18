@@ -1,0 +1,171 @@
+
+ 
+ .main{
+     width: 100%;
+     background: linear-gradient(to top, rgb(255, 255, 255) 50%,rgb(255, 255, 255) 50%), url(bg.avif);
+     background-position: center;
+     background-size: cover;
+     height: 19vh;
+ }
+ .navbar{
+     width: 1200px;
+     height: 1000px;
+     margin: auto;
+ }
+ .icon{
+     width: 200px;
+     float: left;
+     height: 70px;
+ }
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+ .menu{
+     width: 420px;
+     float: left;
+     height: 70px;
+ }
+ ul{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ }
+ ul li{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 14px;
+ } 
+ ul li a {
+     text-decoration: none;
+     color: black;
+     font-family: Arial;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+ }
+  ul li a:hover{
+     color:rgb(9, 42, 105)
+  }
+  .search{
+    width: 300px;
+    float: left;
+    margin-left: 275px;
+ }
+ .srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    background: blue;
+    height: 40px;
+    border: 20px solid rgb(27, 106, 185);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+ }
+ .btn{
+    width: 100px ;
+    height: 40px;
+    background:rgba(12, 12, 110, 0.87) transparent;
+    border: 10px rgb(14, 13, 13) ;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+ }
+ .btn:focus{ 
+    outline: none;
+ }
+ .srch:focus{
+    outline: none;
+ }
+ .btn:hover{
+    background-color: rgb(10, 10, 153);
+ }
+ .bttn{
+    width: 150px ;
+    height: 40px;
+    background:rgb(23, 23, 58) ;
+    border: 10px rgb(14, 13, 13) ;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+ }
+ .Img
+{
+    width: 20px;
+    float: left;
+    height: 0px;
+}
+.Image{
+   
+    display: flex;
+   
+
+}
+.Imagee{
+   
+    display: flex;
+}
+.Normal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large
+}
+.h6{
+
+    font-weight: 200;
+    font-size: larger;
+}
+.Spanning{
+    float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+}
+.icon{
+    display: flex;
+}
+
+    
+    
+    .ilag{
+        display: flex;
+        justify-content: flex-end; /* Align items to the right */
+        align-items: center; /* Vertically center the items */
+        width: 100%; /* Adjust width as necessary */
+    }
+    
+    .ilo {
+        max-width:800px; ; /* Set a max width for the image */
+        height: 70vh; /* Maintain aspect ratio */
+        margin-right: 20px; /* Space between the image and the text */
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    
+    .text {
+    
+        margin-left: 100%; /* Remove default margin */
+    }
+    .Spanning{
+        margin-bottom: 20%;
+    }
+   .footer-container{
+    justify-content: center;
+   }
